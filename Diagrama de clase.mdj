@@ -6569,34 +6569,6 @@
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
-							"_id": "AAAAAAF4oyCNbSffn1o=",
-							"_parent": {
-								"$ref": "AAAAAAF4oyCNbSfegl0="
-							},
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbSfgJbo=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbSffn1o="
-								},
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbSfegl0="
-								}
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbSfhjm0=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbSffn1o="
-								},
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbSfegl0="
-								},
-								"aggregation": "shared"
-							}
-						},
-						{
-							"_type": "UMLAssociation",
 							"_id": "AAAAAAF4oyCNbSfiluo=",
 							"_parent": {
 								"$ref": "AAAAAAF4oyCNbSfegl0="
@@ -6626,34 +6598,6 @@
 								},
 								"aggregation": "shared",
 								"multiplicity": "0..*"
-							}
-						},
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAF4oyCNbSflDss=",
-							"_parent": {
-								"$ref": "AAAAAAF4oyCNbSfegl0="
-							},
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbSfmG9Y=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbSflDss="
-								},
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbSfegl0="
-								}
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbSfn7NU=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbSflDss="
-								},
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbSfegl0="
-								},
-								"aggregation": "shared"
 							}
 						}
 					],
@@ -6698,89 +6642,6 @@
 					},
 					"name": "Manager",
 					"ownedElements": [
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAF4oyCNbifsjSI=",
-							"_parent": {
-								"$ref": "AAAAAAF4oyCNbifrB2k="
-							},
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbiftOmI=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbifsjSI="
-								},
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbifrB2k="
-								}
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbifu2Hc=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbifsjSI="
-								},
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbygHTlc="
-								}
-							}
-						},
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAF4oyCNbifvsX0=",
-							"_parent": {
-								"$ref": "AAAAAAF4oyCNbifrB2k="
-							},
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbifwSqQ=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbifvsX0="
-								},
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbifrB2k="
-								}
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbifx8FU=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbifvsX0="
-								},
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbifrB2k="
-								},
-								"aggregation": "shared"
-							}
-						},
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAF4oyCNbifyjcM=",
-							"_parent": {
-								"$ref": "AAAAAAF4oyCNbifrB2k="
-							},
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbifzoO0=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbifyjcM="
-								},
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbifrB2k="
-								}
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbif08w4=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbifyjcM="
-								},
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbygHTlc="
-								},
-								"aggregation": "shared"
-							}
-						},
 						{
 							"_type": "UMLAssociation",
 							"_id": "AAAAAAF4oyCNbif1jXQ=",
@@ -6890,38 +6751,6 @@
 						},
 						{
 							"_type": "UMLAssociation",
-							"_id": "AAAAAAF4oyCNbif/RMQ=",
-							"_parent": {
-								"$ref": "AAAAAAF4oyCNbif75O0="
-							},
-							"name": "are",
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbigAbDQ=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbif/RMQ="
-								},
-								"name": "spectacol",
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbif75O0="
-								},
-								"multiplicity": "1"
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbigBrw8=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbif/RMQ="
-								},
-								"name": "locuri",
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbygR/Pg="
-								},
-								"multiplicity": "1..*"
-							}
-						},
-						{
-							"_type": "UMLAssociation",
 							"_id": "AAAAAAF4oyCNbigCa1o=",
 							"_parent": {
 								"$ref": "AAAAAAF4oyCNbif75O0="
@@ -6984,34 +6813,6 @@
 					},
 					"name": "Rezervare",
 					"ownedElements": [
-						{
-							"_type": "UMLAssociation",
-							"_id": "AAAAAAF4oyCNbygIITM=",
-							"_parent": {
-								"$ref": "AAAAAAF4oyCNbygHTlc="
-							},
-							"end1": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbygJZdY=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbygIITM="
-								},
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbygHTlc="
-								}
-							},
-							"end2": {
-								"_type": "UMLAssociationEnd",
-								"_id": "AAAAAAF4oyCNbygKLB0=",
-								"_parent": {
-									"$ref": "AAAAAAF4oyCNbygIITM="
-								},
-								"reference": {
-									"$ref": "AAAAAAF4oyCNbygHTlc="
-								},
-								"aggregation": "shared"
-							}
-						},
 						{
 							"_type": "UMLAssociation",
 							"_id": "AAAAAAF4oyCNbygLePk=",
@@ -7151,14 +6952,6 @@
 							"type": "Integer"
 						}
 					]
-				},
-				{
-					"_type": "UMLClass",
-					"_id": "AAAAAAF4oyCNbygYr/k=",
-					"_parent": {
-						"$ref": "AAAAAAF4oyCNZSaD0os="
-					},
-					"name": "loc"
 				}
 			]
 		}
