@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="sessionFactory"
+          class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="configLocation">
+                  <value>classpath:hibernate.cfg.xml</value>
+        </property>
+    </bean>
+
+    <bean id="managerRepo" class="rezervare.persistance.repository.jdbc.ManagerRepo">
+        <constructor-arg ref="sessionFactory"/>
+    </bean>
+    <bean id="spectacolRepo" class="rezervare.persistance.repository.jdbc.SpectacolRepo">
+        <constructor-arg ref="sessionFactory"/>
+    </bean>
+    <bean id="clientRepo" class="rezervare.persistance.repository.jdbc.ClientRepo">
+        <constructor-arg ref="sessionFactory"/>
+    </bean>
+    <bean id="locRepo" class="rezervare.persistance.repository.jdbc.LocRepo">
+        <constructor-arg ref="sessionFactory"/>
+    </bean>
+    <bean id="rezervareRepo" class="rezervare.persistance.repository.jdbc.RezervareRepo">
+        <constructor-arg ref="sessionFactory"/>
+    </bean>
+
+
+    <bean id="rezervareService" class="rezervare.server.RezervareServerImpl">
+        <constructor-arg ref="managerRepo"/>
+        <constructor-arg ref="spectacolRepo"/>
+        <constructor-arg ref="clientRepo"/>
+        <constructor-arg ref="locRepo"/>
+        <constructor-arg ref="rezervareRepo"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+
+        <property name="serviceName" value="Chat"/>
+        <property name="service" ref="rezervareService"/>
+        <property name="serviceInterface" value="rezervare.services.IRezervareServer"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+
+
+
+</beans>
